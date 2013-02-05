@@ -20,7 +20,17 @@ It's easy to work out, but below is an example, when i get time i will imporve t
             <div class="col three-one">3/1</div>
             <div class="col three-one tablet-full last">3/1</div>
         </div>
+
+        <div class="row">
+			<div class="col four-one">4/1</div>
+			<div class="col four-one">4/1</div>
+			<div class="col four-one">4/1</div>
+			<div class="col four-one last">4/1</div>
+		</div>
     </div>
+
+.last is used only to fix a bug in IE7
+.tablet-full is used to make the last column (or any) full width when it stacks on tablet's
 
 ## License
 
