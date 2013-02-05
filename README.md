@@ -12,7 +12,7 @@ I am [Roy Barber](http://roybarber.com), I am a 29 year old freelance designer a
 
 ## Usage
 
-It's easy to work out, but below is an example, when I get time I will improve these Doc's!
+It's easy to work out, but below is an example. When I get time I will improve these docs!
 
     <div class="container">
         <div class="row">
