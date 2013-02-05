@@ -1,6 +1,6 @@
 # Micro Responsive Grid
 
-A tinly little responsive grid (32 lines of CSS), with a nestable 3 & 4 column setup.
+A tiny little responsive grid (32 lines of CSS), with a nestable 3 & 4 column setup.
 
 ## Browser support
 
@@ -12,7 +12,7 @@ I am [Roy Barber](http://roybarber.com), I am a 29 year old freelance designer a
 
 ## Usage
 
-It's easy to work out, but below is an example, when i get time i will imporve these Doc's!
+It's easy to work out, but below is an example, when I get time I will improve these Doc's!
 
     <div class="container">
         <div class="row">
