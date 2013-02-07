@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>myIM</title>
+<title>Micro Responsive Grid</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css" />
@@ -13,72 +13,99 @@
 	<link rel="stylesheet" href="css/ie.css" />
 <![endif]-->
 
+<!-- Demo Styles only, please ignore -->
+<style>
+	body {color: #f2e3b3;background:#736c48;margin-top:50px;text-align:center;font-family: sans-serif;}
+	header {margin-bottom:40px;}
+	h1 {font-size: 30px;line-height:40px;font-weight:bold;margin-bottom:8px;}
+	h2 {font-size: 24px;line-height:30px;font-weight:bold;margin:20px 0;}
+	p {font-family: serif;font-style: italic;font-size: 14px;}
+	p a {color: #f2e3b3;text-decoration: none;font-style: normal;}
+	.demo {background:#d98032;}
+	span {display:block;padding:15px;}
+	.row > div {margin-top:10px;}
+	.nested .demo {background:#d95d30;}
+</style>
+
 </head>
 <body>
 	
 	<div class="container">
+		<header>
+			<h1>Micro Responsive Grid Demo</h1>
+			<p>by <a href="http://roybarber.com">Roy Barber</a>
+		</header>
+
+
+		<!-- Remove the demo class, its only to give the demo some color! -->
+
+
 		<div class="row">
-			<div class="col three-one">3/1</div>
-			<div class="col three-one">3/1</div>
-			<div class="col three-one tablet-full last">3/1</div>
+			<div class="col three-one demo"><span>3/1</span></div>
+			<div class="col three-one demo"><span>3/1</span></div>
+			<div class="col three-one tablet-full last demo"><span>3/1</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col three-two">3/2</div>
-			<div class="col three-one last">3/1</div>
+			<div class="col three-two demo"><span>3/2</span></div>
+			<div class="col three-one last demo"><span>3/1</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col three-one">3/1</div>
-			<div class="col three-two last">3/2</div>
+			<div class="col three-one demo"><span>3/1</span></div>
+			<div class="col three-two last demo"><span>3/2</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col three-three last">3/3</div>
+			<div class="col three-three last demo"><span>3/3</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col four-one">4/1</div>
-			<div class="col four-one">4/1</div>
-			<div class="col four-one">4/1</div>
-			<div class="col four-one last">4/1</div>
+			<div class="col four-one demo"><span>4/1</span></div>
+			<div class="col four-one demo"><span>4/1</span></div>
+			<div class="col four-one demo"><span>4/1</span></div>
+			<div class="col four-one last demo"><span>4/1</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col four-two">4/2</div>
-			<div class="col four-two last">4/2</div>
+			<div class="col four-two demo"><span>4/2</span></div>
+			<div class="col four-two last demo"><span>4/2</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col four-one">4/1</div>
-			<div class="col four-two">4/2</div>
-			<div class="col four-one tablet-full last">4/1w</div>
+			<div class="col four-one demo"><span>4/1</span></div>
+			<div class="col four-two demo"><span>4/2</span></div>
+			<div class="col four-one tablet-full last demo"><span>4/1</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col four-three">4/3</div>
-			<div class="col four-one tablet-full last">4/1</div>
+			<div class="col four-three demo"><span>4/3</span></div>
+			<div class="col four-one tablet-full last demo"><span>4/1</span></div>
 		</div>
 		
 		<div class="row">
-			<div class="col four-four last">4/4</div>
+			<div class="col four-four last demo"><span>4/4</span></div>
 		</div>
 		
+		<div class="row">
+			<h2>Nested</h2>
+		</div>
+
 		<div class="row">
 			<div class="col four-four last nested">
 				<div class="row">
-					<div class="col four-one">4/1</div>
-					<div class="col four-one">4/1</div>
-					<div class="col four-one">4/1</div>
-					<div class="col four-one last">4/1</div>
+					<div class="col four-one demo"><span>4/1</span></div>
+					<div class="col four-one demo"><span>4/1</span></div>
+					<div class="col four-one demo"><span>4/1</span></div>
+					<div class="col four-one last demo"><span>4/1</span></div>
 				</div>
 			</div>
 			
 			<div class="col three-three last nested">
 				<div class="row">
-					<div class="col three-one">3/1</div>
-					<div class="col three-one">3/1</div>
-					<div class="col three-one tablet-full last">3/1</div>
+					<div class="col three-one demo"><span>3/1</span></div>
+					<div class="col three-one demo"><span>3/1</span></div>
+					<div class="col three-one tablet-full last demo"><span>3/1</span></div>
 				</div>
 			</div>
 		</div>
