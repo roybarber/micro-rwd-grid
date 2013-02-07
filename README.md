@@ -4,11 +4,15 @@ A tiny little responsive grid (32 lines of CSS), with a nestable 3 & 4 column se
 
 ## Browser support
 
-Tested in all browsers, minor stacking bug in IE7 at certain widths, but this is on the roadmap to fix, or send in those pull requests.
+Tested in all browsers, minor stacking bug in IE7 at certain widths, but this is on the roadmap to fix, or send in those pull requests. This is still a work in progress, so would be great if you had any suggestions to make this as small as possible!
 
 ## The developer
 
-I am [Roy Barber](http://roybarber.com), I am a 29 year old freelance designer and front end devloper from the UK. I occasionally write some articles [here](http://roybarber.com/blog/)
+I'm [Roy Barber](http://roybarber.com), a 29 year old freelance designer and front end devloper from the UK. I occasionally write some articles [here](http://roybarber.com/blog/)
+
+## Demo
+
+[Clickety click](http://roybarber.github.com/micro-rwd-grid/)
 
 ## Usage
 
@@ -29,8 +33,7 @@ It's easy to work out, but below is an example. When I get time I will improve t
 		</div>
     </div>
 
-.last is used only to fix a bug in IE7
-.tablet-full is used to make the last column (or any) full width when it stacks on tablet's
+.last is used only to fix a bug in IE7, .tablet-full is used to make the last column (or any) full width when it stacks on tablet's
 
 ## License
 
